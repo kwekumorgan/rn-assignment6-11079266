@@ -53,8 +53,8 @@ function HomeScreen({ navigation }) {
         </View>
       </View>
       <View style={{ flexDirection: 'row' }}>
-        <Text style={{ fontSize: 16 }}>Our Story</Text>
-        <View style={{ flexDirection: 'row', justifyContent: 'flex-end', paddingLeft: 230 }}>
+        <Text style={{ fontSize: 24}}>Our Story</Text>
+        <View style={{ flexDirection: 'row', justifyContent: 'flex-end', paddingLeft: 190 }}>
           <Image source={require('../assets/Listview.png')} style={{ marginRight: 20 }} />
           <Image source={require('../assets/Filter.png')} />
         </View>
